@@ -1,0 +1,25 @@
+// Linked List
+
+/* 
+Array: wastage of memory ; Solution for this problem :- L.L.
+
+Types:
+1.) Singly LL       2.) Doubly LL
+3.) Circular LL     4.) Doubly Circular LL
+
+
+Array vs Linked List
+LL : Accessing depends on no.of nodes.
+ex, If you want to access the element in the middle, you have to go through all nodes before that.
+
+Data accessing, Array is better than LL
+
+Memory utilization is efficient in LL.
+In Array there is memory wastage. 
+
+Memory requirement in Array is less
+Memory requirement in LL is more.
+
+Array : Linear & Binary Search is possible.
+LL    : Only Linear search is possible.
+*/

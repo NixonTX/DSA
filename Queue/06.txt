@@ -1,0 +1,14 @@
+DEQUE (Double Ended Queue)
+
+2 types
+* Input Restricted      * Output Restricted
+
+~ Insert at front
+~ delete from front
+~ insert at rear
+~ delete from rear
+
+// Applications
+~ stack & Queue
+~ Palindrome checker
+~ Multiprocessor Scheduling(A-Steal Algorithm)

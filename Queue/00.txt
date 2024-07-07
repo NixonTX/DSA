@@ -1,0 +1,10 @@
+// Queue
+/*
+    Insertion : Rear/tail : Enqueue()
+    Deletion : head/front : Deque()
+
+    Drawback -> You have space, but you cannot insert data (after deleting it). => the solution is Circular Queue
+
+Queue Example : Customer Care : putting people hold
+
+*/

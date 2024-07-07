@@ -1,0 +1,14 @@
+// Infix to Postfix Conversion
+/*
+1. Print Operands as they arrive
+2. If stack is empty or contains a left paranthesis on top, push the incoming operator onto the stack
+3. If incoming symbol is '(', push it onto stack
+4. If incoming symbol is ')', pop the stack & print the operators until left parenthesis is found
+5. If incoming symbol has higher precedence than the top of the stack, push it on the stack
+6. If incoming symbol has lower precedence than the top of the stack, pop & print the top. Then test the incoming operator against the new   top of the stack
+7. If incoming operator has equal precedence with the top of the stack, use associativity rule
+8. At the end of expression, pop & print all operators of stack
+
+=> Associativity L to R then pop & print the top of the stack & then push the incoming operator
+=> R to L then push the incoming operator.
+*/

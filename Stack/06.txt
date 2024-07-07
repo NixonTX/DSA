@@ -1,0 +1,16 @@
+// Infix to Prefix 
+/*
+1. First Reverse the given Infix expression
+  // most of the rules are similar to Infix to Postfix
+2. Scan it to left to right
+  // or without reversing scan it to R to Left.
+3. If operand is there simply print it, if operator is there, check out the stack.
+    If stack is empty or in the stack we have closing parenthesis then simply push that operator into the stack.
+    else stack is not empty, 
+    checkout the precedence of the incoming operator. If the precedence of the incoming operator higher than the precedence of the top of the stack, then simply push the incoming operator into the stack.
+4. If the precedence of the incoming operator is less than the operator which is present at the top of the stack, 
+    pop from the stack and print it.
+    Again check the incoming operator with the new top of the stack.If precedence of both operator, the incoming operator and the top of the stack operator is same then checkout the associativity rule.
+    If associativity is L-R, simply push the incoming operator into the stack. If associativity is R-L then first pop from the stack. and then again check the incoming operator with the new top of the stack.
+5. Reverse the resultant expression.
+*/

@@ -1,0 +1,14 @@
+/*
+Stack   : LIFO - Last In First Out
+          FILO - First In Last Out
+        
+Insertion - push
+Deletion/taking out - pop
+top/peek - return top without removing it.
+isEmpty - Is it empty?
+isFull - Is it full?
+
+SMA - using Array
+DMA - using LL
+
+*/
