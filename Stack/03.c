@@ -15,7 +15,7 @@ void push(int x) {
   newnode->next = top;
   top = newnode;
 }
-// Don't require a Overflow statement
+// Don't require an Overflow statement
 
 void display() {
   struct node* temp = top;
