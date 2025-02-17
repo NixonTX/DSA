@@ -1,4 +1,4 @@
-// Insertion of Queue using Array
+// Implementation of Queue using Array
 
 #include<stdio.h>
 #define N 5

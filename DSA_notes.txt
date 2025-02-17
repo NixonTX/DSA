@@ -1,0 +1,8 @@
+Efficiency : Time & Space
+Performance == scale
+Analysis of algorithms is the determination of the amount of time and space resources required to execute it.
+
+Time Complexit : Time Complexity considers how many times each statement executes. 
+Time complexity is a way to measure how long an algorithm takes to run based on the size of its input. 
+Time complexity is not the actual time required to execute the code, the actual time required to execute code is machine-dependent
+
