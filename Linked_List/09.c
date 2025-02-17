@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int main() {
     int a[] = {6, 2, 1, 5, 3};

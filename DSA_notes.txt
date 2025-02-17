@@ -6,3 +6,4 @@ Time Complexit : Time Complexity considers how many times each statement execute
 Time complexity is a way to measure how long an algorithm takes to run based on the size of its input. 
 Time complexity is not the actual time required to execute the code, the actual time required to execute code is machine-dependent
 
+Space Complexit: Space Complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input. 
